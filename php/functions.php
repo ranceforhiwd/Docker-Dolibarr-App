@@ -6,7 +6,7 @@ function setGlobalVariable()
     $GLOBALS['api_key'] = 'uI42zLVZ31Y6wbqoR6WOGSrCf4k3cn68';  
 }
 
-// function to call a REST API
+// function to call a REST API for testing
 function callAPI($method, $apikey, $url, $data = false)
 {
     $curl = curl_init();
