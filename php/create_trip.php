@@ -92,4 +92,4 @@ foreach($proposal_line_data as $pld){
 
 validate_proposal($endpoint_base, $api_key, $new_proposal_id);
 
-echo 'Complete';
+echo 'job Complete';

@@ -1,7 +1,7 @@
 <?php
 function setGlobalVariable()
 {
-    $GLOBALS['endpoint_base'] = 'http://127.0.0.1/api/index.php/';  
+    $GLOBALS['endpoint_base'] = 'http://localhost/api/index.php/';  
     $GLOBALS['date_today'] = date("Y-m-d");
     $GLOBALS['api_key'] = 'uI42zLVZ31Y6wbqoR6WOGSrCf4k3cn68';  
 }
