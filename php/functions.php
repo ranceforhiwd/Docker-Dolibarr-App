@@ -1,9 +1,9 @@
 <?php
 function setGlobalVariable()
 {
-    $GLOBALS['endpoint_base'] = 'http://localhost/api/index.php/';  
+    $GLOBALS['endpoint_base'] = 'http://docker-dolibarr-app-web-1/api/index.php/';  
     $GLOBALS['date_today'] = date("Y-m-d");
-    $GLOBALS['api_key'] = '7YsH6AV1DSzRekqzbnBH95Z3Ux1195px';  
+    $GLOBALS['api_key'] = 'I3d93f2vGrtyz2J6pObIHr9mGYOM0R01';  
 }
 
 // function to call a REST API for testing
@@ -58,7 +58,7 @@ function get_token($ep, $u, $p)
 
 function create_prospect($ep, $z, $y)
 {  
-    $endpoint = $ep.'thirdparties'; 
+    $endpoint = $ep.'thirdparties';     
     return callAPI('POST', $z, $endpoint, json_encode($y));
 }
 

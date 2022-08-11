@@ -15,14 +15,14 @@ $_POST['email'] = 'jdoe@testing.com';
 $_POST['telephone'] = 2134567890;
 $_POST['checkin'] = '2022-06-01';
 $_POST['checkout'] = '2022-06-07';
-$_POST['villaselect'] = 3;
-$_POST['excursions'] = 4;
-$_POST['catering'] = 8;
-$_POST['salon'] = 13;
+$_POST['villaselect'] = 8;
+$_POST['excursions'] = 9;
+$_POST['catering'] = 10;
+$_POST['salon'] = 11;
 
 //trip params
 $qty = 1;
-$product_ids = ["excurs"=>$_POST['excurs'], "villa"=>$_POST['villaselect'], "catering"=>$_POST['catering']];
+$product_ids = ["excurs"=>$_POST['excursions'], "villa"=>$_POST['villaselect'], "catering"=>$_POST['catering']];
 $checkin = $_POST['checkin'];
 $checkout = $_POST['checkout'];
 $rental_qty = get_number_days($checkin, $checkout);
