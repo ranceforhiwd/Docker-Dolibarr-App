@@ -3,7 +3,7 @@ function setGlobalVariable()
 {
     $GLOBALS['endpoint_base'] = 'http://localhost/api/index.php/';  
     $GLOBALS['date_today'] = date("Y-m-d");
-    $GLOBALS['api_key'] = 'uI42zLVZ31Y6wbqoR6WOGSrCf4k3cn68';  
+    $GLOBALS['api_key'] = '7YsH6AV1DSzRekqzbnBH95Z3Ux1195px';  
 }
 
 // function to call a REST API for testing
